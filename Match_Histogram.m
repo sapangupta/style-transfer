@@ -1,3 +1,8 @@
+
+%%%%% Implementation of Approach 1 for preserving style in this paper
+%%%%% https://arxiv.org/pdf/1606.05897v1.pdf
+%%%%% Output is Style image which has the colour of the content image preserved
+
 content=imread('content.jpg');
 style=imread('style.jpg');
 content=imresize(content,[512,512]);
